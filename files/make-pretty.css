@@ -1,3 +1,30 @@
-#homebody {
-  background-color:#86C6DB;
+body {
+  background-color: #86C6DB;
+}
+h3 {
+  color: white;
+}
+html, body {
+  height: 100%;
+}
+/* from bootstrap example of fixed footer */
+#wrap {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+#footer {
+  height: 60px;
+  background-color: #304E63;
+  padding: 10px;
+}
+p.footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+  color: #E1F2F7;
 }
