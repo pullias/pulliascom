@@ -1,6 +1,15 @@
 pulliascom
 ==========
 
+
 source code of pullias.com, now version controlled!<br>
-This was a nodejs app running on heroku, to get some experience with those technologies<br>
-However, I found it's better to use an s3 bucket with a static homepage for speed.<br>
+This is a static home page hosted on amazon s3.
+
+Release process:<br>
+1. Check code into github<br>
+2. Upload files to s3 bucket<br>
+3. Make files in s3 bucket public<br>
+
+
+
+
