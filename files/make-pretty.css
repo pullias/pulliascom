@@ -9,6 +9,7 @@ html, body {
 }
 a {
   color: #304E63;
+  font-weight: bold;
 }
 /* from bootstrap example of fixed footer */
 #wrap {
